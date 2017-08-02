@@ -12,6 +12,13 @@
 		ED0929101EFC43F400EA69C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED09290E1EFC43F400EA69C1 /* Main.storyboard */; };
 		ED0929121EFC43F400EA69C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0929111EFC43F400EA69C1 /* Assets.xcassets */; };
 		ED0929151EFC43F400EA69C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0929131EFC43F400EA69C1 /* LaunchScreen.storyboard */; };
+		ED10B55A1F13FB47001EB587 /* PlatzigramTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED10B5591F13FB47001EB587 /* PlatzigramTabBarController.swift */; };
+		ED6198EF1F1E9706001CF5DA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6198EE1F1E9706001CF5DA /* ProfileViewController.swift */; };
+		EDA736F91EFD9431001B132B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA736F81EFD9431001B132B /* RegisterViewController.swift */; };
+		EDEA30981F02E0B700CAF298 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEA30971F02E0B700CAF298 /* WelcomeViewController.swift */; };
+		EDF0E96C1F1FD904002E8F76 /* NuevaVistaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF0E96B1F1FD904002E8F76 /* NuevaVistaViewController.swift */; };
+		EDF0E96E1F27C554002E8F76 /* PlatzigramPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF0E96D1F27C554002E8F76 /* PlatzigramPostCell.swift */; };
+		EDF0E9701F29166F002E8F76 /* PlatziFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF0E96F1F29166F002E8F76 /* PlatziFeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		ED0929111EFC43F400EA69C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED0929141EFC43F400EA69C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED0929161EFC43F400EA69C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED10B5591F13FB47001EB587 /* PlatzigramTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatzigramTabBarController.swift; sourceTree = "<group>"; };
+		ED6198EE1F1E9706001CF5DA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EDA736F81EFD9431001B132B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EDEA30971F02E0B700CAF298 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EDF0E96B1F1FD904002E8F76 /* NuevaVistaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevaVistaViewController.swift; sourceTree = "<group>"; };
+		EDF0E96D1F27C554002E8F76 /* PlatzigramPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatzigramPostCell.swift; sourceTree = "<group>"; };
+		EDF0E96F1F29166F002E8F76 /* PlatziFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatziFeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +71,16 @@
 				ED09290A1EFC43F400EA69C1 /* AppDelegate.swift */,
 				ED09290C1EFC43F400EA69C1 /* ViewController.swift */,
 				ED09290E1EFC43F400EA69C1 /* Main.storyboard */,
+				EDF0E96F1F29166F002E8F76 /* PlatziFeedViewController.swift */,
+				EDF0E96D1F27C554002E8F76 /* PlatzigramPostCell.swift */,
+				EDF0E96B1F1FD904002E8F76 /* NuevaVistaViewController.swift */,
+				ED6198EE1F1E9706001CF5DA /* ProfileViewController.swift */,
+				ED10B5591F13FB47001EB587 /* PlatzigramTabBarController.swift */,
+				EDEA30971F02E0B700CAF298 /* WelcomeViewController.swift */,
 				ED0929111EFC43F400EA69C1 /* Assets.xcassets */,
 				ED0929131EFC43F400EA69C1 /* LaunchScreen.storyboard */,
 				ED0929161EFC43F400EA69C1 /* Info.plist */,
+				EDA736F81EFD9431001B132B /* RegisterViewController.swift */,
 			);
 			path = PlatziSimpleApp;
 			sourceTree = "<group>";
@@ -136,6 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6198EF1F1E9706001CF5DA /* ProfileViewController.swift in Sources */,
+				EDA736F91EFD9431001B132B /* RegisterViewController.swift in Sources */,
+				ED10B55A1F13FB47001EB587 /* PlatzigramTabBarController.swift in Sources */,
+				EDEA30981F02E0B700CAF298 /* WelcomeViewController.swift in Sources */,
+				EDF0E96E1F27C554002E8F76 /* PlatzigramPostCell.swift in Sources */,
+				EDF0E9701F29166F002E8F76 /* PlatziFeedViewController.swift in Sources */,
+				EDF0E96C1F1FD904002E8F76 /* NuevaVistaViewController.swift in Sources */,
 				ED09290D1EFC43F400EA69C1 /* ViewController.swift in Sources */,
 				ED09290B1EFC43F400EA69C1 /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +329,7 @@
 				ED09291B1EFC43F400EA69C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
